@@ -103,14 +103,14 @@
   "users": [
     {
       "id": 1,
-      "email": "vividrohit@gmail.com",
-      "password": "RKF1234@truth",
+      "email": "v@gmail.com",
+      "password": "1234567890",
       "name": {
-        "firstName": "Rohit",
-        "lastName": "K F"
+        "firstName": "Roy",
+        "lastName": "Korald"
       },
-      "location": "Kerala",
-      "mobile": "9895845480"
+      "location": "Kronos",
+      "mobile": "5556894321"
     },
     {
       "id": 2,
