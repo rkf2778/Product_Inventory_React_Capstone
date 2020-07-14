@@ -1,9 +1,14 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import React from 'react'
 import App from './App';
+import {shallow} from 'enzyme';
+import AllProductsPage from './components/products/AllProductsPage';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+let wrapper;
+
+beforeEach(()=>{
+    wrapper = shallow(<App/>);
 });
+
+it('displays All Products Page',()=>{
+    expect(wrapper.find(AllProductsPage).length).toEqual(1);
+})

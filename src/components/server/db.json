@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Moto G5 Ultra",
+      "quantity": 4,
+      "price": 10000,
+      "description": "Moto G5",
+      "manufacturer": "Motorola",
+      "views": 1
+    },
+    {
+      "id": 2,
+      "name": "Racold Geyser",
+      "quantity": 3,
+      "price": 60000,
+      "description": "Moto G5",
+      "manufacturer": "Motorola",
+      "views": 5
+    },
+    {
+      "id": 3,
+      "name": "Lenovo G5",
+      "quantity": 3,
+      "price": 55000,
+      "manufacturer": "Lenovo",
+      "description": "A gaming laptop",
+      "views": 1
+    },
+    {
+      "id": 4,
+      "name": "Acer Swift ",
+      "quantity": 5,
+      "price": 35000,
+      "manufacturer": "Acer",
+      "description": "Business Laptop",
+      "views": 1
+    },
+    {
+      "name": "Asus ROG",
+      "quantity": 42,
+      "price": 95000,
+      "manufacturer": "ASUS",
+      "description": "A powerful gaming laptop",
+      "views": 2,
+      "id": 5
+    },
+    {
+      "name": "Acer Nitro 7",
+      "quantity": 15,
+      "price": 65000,
+      "manufacturer": "Acer",
+      "description": "A budget gaming laptop",
+      "views": 5,
+      "id": 6
+    },
+    {
+      "name": "MSI GL63",
+      "quantity": 45,
+      "price": 89000,
+      "manufacturer": "MSI",
+      "description": "A powerful budget gaming laptop",
+      "views": 1,
+      "id": 7
+    },
+    {
+      "name": "HP Pavillion ",
+      "quantity": 34,
+      "price": 75000,
+      "manufacturer": "HP",
+      "description": "A professional laptop",
+      "views": 6,
+      "id": 8
+    },
+    {
+      "name": "Dell XPS 15 9500",
+      "quantity": 56,
+      "price": 134000,
+      "manufacturer": "Dell",
+      "description": "A powerful gaming and business laptop",
+      "views": 4,
+      "id": 9
+    },
+    {
+      "name": "Lenovo Legion 5i",
+      "quantity": 56,
+      "price": 83000,
+      "manufacturer": "Lenovo",
+      "description": "A powerful gaming laptop",
+      "views": 1,
+      "id": 10
+    },
+    {
+      "name": "Lenovo L340",
+      "quantity": 34,
+      "price": 59000,
+      "manufacturer": "Lenovo",
+      "description": "Budget laptop",
+      "views": 1,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "vividrohit@gmail.com",
+      "password": "RKF1234@truth",
+      "name": {
+        "firstName": "Rohit",
+        "lastName": "K F"
+      },
+      "location": "Kerala",
+      "mobile": "9895845480"
+    },
+    {
+      "id": 2,
+      "email": "t@t.com",
+      "password": "123",
+      "name": {
+        "firstName": "Ram",
+        "lastName": "Shankar"
+      },
+      "location": "Delhi",
+      "mobile": "9895454860"
+    },
+    {
+      "email": "e@e.com",
+      "password": "123456789",
+      "name": {
+        "firstName": "RAGAV",
+        "lastName": "Shant"
+      },
+      "location": "Karnataka",
+      "mobile": "1234567891",
+      "id": 3
+    },
+    {
+      "email": "k@k.com",
+      "password": "123456789",
+      "name": {
+        "firstName": "sd",
+        "lastName": "dv"
+      },
+      "location": "dfv",
+      "mobile": "12345678231",
+      "id": 4
+    },
+    {
+      "email": "a@a.com",
+      "password": "1234567890",
+      "name": {
+        "firstName": "a",
+        "lastName": "b"
+      },
+      "location": "kerala",
+      "mobile": "98563214703",
+      "id": 5
+    }
+  ]
+}
