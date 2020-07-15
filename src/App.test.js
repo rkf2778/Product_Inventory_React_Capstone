@@ -1,14 +1,28 @@
 import React from 'react'
-import App from './App';
-import {shallow} from 'enzyme';
-import AllProductsPage from './components/products/AllProductsPage';
+import { Provider } from "react-redux";
+import configureStore from "./components/redux/store/configureStore";
+import { loadProduct } from "./components/redux/actions/productActions";
+import { loadUser } from "./components/redux/actions/userActions";
+import {mount,shallow} from 'enzyme'
+import App from './App'
 
-let wrapper;
+describe("App renders correctly", () => {
+  const store = configureStore();
 
-beforeEach(()=>{
-    wrapper = shallow(<App/>);
+  store.dispatch(loadProduct());
+  store.dispatch(loadUser());
+
+    let mountwrapper = mount(
+      <Provider store={store}>
+        <App />
+      </Provider>)
+
+  afterEach(() => {
+    mountwrapper.unmount();
+  });
+
+  it("Snapshot matches correctly", () => {
+    expect(mountwrapper).toMatchSnapshot();
+  });
 });
 
-it('displays All Products Page',()=>{
-    expect(wrapper.find(AllProductsPage).length).toEqual(1);
-})

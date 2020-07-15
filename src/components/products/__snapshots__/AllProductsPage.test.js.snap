@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Products Page Snapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(AllProductsPage)>
+    <AllProductsPage
+      actions={
+        Object {
+          "addProduct": [Function],
+          "addView": [Function],
+          "deleteProduct": [Function],
+          "loadProduct": [Function],
+          "updateProduct": [Function],
+        }
+      }
+      products={Array []}
+      userAction={
+        Object {
+          "addUser": [Function],
+          "loadUser": [Function],
+        }
+      }
+      users={Array []}
+    >
+      <div>
+        <div
+          className="container"
+          style={
+            Object {
+              "display": "flex",
+              "paddingTop": "30px",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "marginLeft": "auto",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              type="text"
+            />
+             
+             
+             
+            <FiSearch
+              size="20px"
+            >
+              <IconBase
+                attr={
+                  Object {
+                    "fill": "none",
+                    "stroke": "currentColor",
+                    "strokeLinecap": "round",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "2",
+                    "viewBox": "0 0 24 24",
+                  }
+                }
+                size="20px"
+              >
+                <svg
+                  fill="none"
+                  height="20px"
+                  size="20px"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="11"
+                    cy="11"
+                    key="0"
+                    r="8"
+                  />
+                  <line
+                    key="1"
+                    x1="21"
+                    x2="16.65"
+                    y1="21"
+                    y2="16.65"
+                  />
+                </svg>
+              </IconBase>
+            </FiSearch>
+             
+          </span>
+        </div>
+        <div
+          className="container"
+          style={
+            Object {
+              "alignItems": "space-between",
+              "display": "flex",
+              "justifyContent": "flex-end",
+              "paddingTop": "6px",
+            }
+          }
+        >
+          <label
+            style={
+              Object {
+                "color": "white",
+                "padding": "0px 5px 0px 2px",
+              }
+            }
+          >
+            <input
+              defaultChecked={true}
+              onClick={[Function]}
+              type="checkbox"
+            />
+             
+            Quantity
+          </label>
+          <label
+            style={
+              Object {
+                "color": "white",
+                "padding": "0px 5px 0px 2px",
+              }
+            }
+          >
+            <input
+              defaultChecked={true}
+              onClick={[Function]}
+              type="checkbox"
+            />
+             
+            Price 
+          </label>
+          <label
+            style={
+              Object {
+                "color": "white",
+                "padding": "0px 5px 0px 2px",
+              }
+            }
+          >
+            <input
+              defaultChecked={true}
+              onClick={[Function]}
+              type="checkbox"
+            />
+             
+            Manufacturer 
+          </label>
+        </div>
+        <hr />
+        <div
+          style={
+            Object {
+              "minHeight": "100vh",
+            }
+          }
+        >
+          <ProductList
+            data={
+              Object {
+                "manufacturer": true,
+                "price": true,
+                "quantity": true,
+              }
+            }
+            products={Array []}
+            toggleManufacturer={[Function]}
+            togglePrice={[Function]}
+            toggleQuantity={[Function]}
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              />
+            </Container>
+          </ProductList>
+          <br />
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col>
+                    <div
+                      className="col"
+                    />
+                  </Col>
+                  <Col
+                    lg="auto"
+                    md="auto"
+                    sm="auto"
+                    xs="auto"
+                  >
+                    <div
+                      className="col-lg-auto col-md-auto col-sm-auto col-auto"
+                    >
+                      <Pagination
+                        paginate={[Function]}
+                        postsPerPage={9}
+                        totalPosts={0}
+                      >
+                        <nav>
+                          <ul
+                            className="pagination"
+                          />
+                        </nav>
+                      </Pagination>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div
+                      className="col"
+                    />
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </div>
+    </AllProductsPage>
+  </Connect(AllProductsPage)>
+</Provider>
+`;

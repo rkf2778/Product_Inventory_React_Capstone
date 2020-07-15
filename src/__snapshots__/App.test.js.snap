@@ -1,0 +1,1447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Products Page Snapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      actions={
+        Object {
+          "addProduct": [Function],
+          "addView": [Function],
+          "deleteProduct": [Function],
+          "loadProduct": [Function],
+          "updateProduct": [Function],
+        }
+      }
+      products={Array []}
+      userAction={
+        Object {
+          "addUser": [Function],
+          "loadUser": [Function],
+        }
+      }
+      users={Array []}
+    >
+      <Suspense
+        fallback={
+          <h1>
+            Loading.....
+          </h1>
+        }
+      >
+        <BrowserRouter>
+          <Router
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          >
+            <Header
+              handleLogin={[Function]}
+              loggedIn={false}
+              users={Array []}
+            >
+              <div
+                className="App"
+              >
+                <Navbar
+                  bg="dark"
+                  collapseOnSelect={false}
+                  expand="lg"
+                  variant="dark"
+                >
+                  <nav
+                    className="navbar navbar-expand-lg navbar-dark bg-dark"
+                  >
+                    <NavbarBrand>
+                      <span
+                        className="navbar-brand"
+                      >
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              <img
+                                alt=""
+                                className="d-inline-block align-top"
+                                height="50"
+                                src="MainLogo.jpeg"
+                                style={
+                                  Object {
+                                    "borderRadius": "50px",
+                                    "paddingRight": "20px",
+                                  }
+                                }
+                                width="80"
+                              />
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </span>
+                    </NavbarBrand>
+                    <NavbarToggle
+                      aria-controls="responsive-navbar-nav"
+                      label="Toggle navigation"
+                    >
+                      <button
+                        aria-controls="responsive-navbar-nav"
+                        aria-label="Toggle navigation"
+                        className="navbar-toggler collapsed"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <span
+                          className="navbar-toggler-icon"
+                        />
+                      </button>
+                    </NavbarToggle>
+                    <NavbarCollapse
+                      id="basic-navbar-nav"
+                    >
+                      <Collapse
+                        appear={false}
+                        dimension="height"
+                        getDimensionValue={[Function]}
+                        id="basic-navbar-nav"
+                        in={false}
+                        mountOnEnter={false}
+                        timeout={300}
+                        unmountOnExit={false}
+                      >
+                        <Transition
+                          addEndListener={[Function]}
+                          appear={false}
+                          aria-expanded={null}
+                          enter={true}
+                          exit={true}
+                          id="basic-navbar-nav"
+                          in={false}
+                          mountOnEnter={false}
+                          onEnter={[Function]}
+                          onEntered={[Function]}
+                          onEntering={[Function]}
+                          onExit={[Function]}
+                          onExited={[Function]}
+                          onExiting={[Function]}
+                          timeout={300}
+                          unmountOnExit={false}
+                        >
+                          <div
+                            aria-expanded={null}
+                            className="navbar-collapse collapse"
+                            id="basic-navbar-nav"
+                          >
+                            <Nav
+                              className="mr-auto"
+                              fill={false}
+                              justify={false}
+                            >
+                              <ForwardRef
+                                as="div"
+                                className="mr-auto navbar-nav"
+                                onSelect={[Function]}
+                              >
+                                <div
+                                  className="mr-auto navbar-nav"
+                                  onKeyDown={[Function]}
+                                >
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/"
+                                  >
+                                    <Link
+                                      aria-current="page"
+                                      className="active"
+                                      style={
+                                        Object {
+                                          "color": "red",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current="page"
+                                        className="active"
+                                        href="/"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "red",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current="page"
+                                          className="active"
+                                          href="/"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "red",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          Home
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/about"
+                                  >
+                                    <Link
+                                      aria-current={null}
+                                      style={
+                                        Object {
+                                          "color": "white",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/about",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current={null}
+                                        href="/about"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current={null}
+                                          href="/about"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          About
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                </div>
+                              </ForwardRef>
+                            </Nav>
+                          </div>
+                        </Transition>
+                      </Collapse>
+                    </NavbarCollapse>
+                    <Link
+                      to="/register"
+                    >
+                      <LinkAnchor
+                        href="/register"
+                        navigate={[Function]}
+                      >
+                        <a
+                          href="/register"
+                          onClick={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            disabled={false}
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                                "marginRight": "30px",
+                              }
+                            }
+                            type="button"
+                            variant="success"
+                          >
+                            <button
+                              className="btn btn-success"
+                              disabled={false}
+                              style={
+                                Object {
+                                  "fontWeight": "bold",
+                                  "marginRight": "30px",
+                                }
+                              }
+                              type="button"
+                            >
+                              <MdContentPaste>
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 24 24",
+                                    }
+                                  }
+                                >
+                                  <svg
+                                    fill="currentColor"
+                                    height="1em"
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": undefined,
+                                      }
+                                    }
+                                    viewBox="0 0 24 24"
+                                    width="1em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M19 2h-4.18C14.4.84 13.3 0 12 0c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 18H5V4h2v3h10V4h2v16z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </MdContentPaste>
+                               
+                              Register
+                            </button>
+                          </Button>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                      type="button"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "fontWeight": "bold",
+                          }
+                        }
+                        type="button"
+                      >
+                         
+                        Login
+                         
+                      </button>
+                    </Button>
+                  </nav>
+                </Navbar>
+              </div>
+            </Header>
+            <Switch>
+              <Route
+                computedMatch={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                exact={true}
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                path="/"
+                render={[Function]}
+              />
+            </Switch>
+            <Footer>
+              <footer>
+                <p
+                  style={
+                    Object {
+                      "backgroundColor": "#333",
+                      "color": "white",
+                      "padding": "20px",
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Copyright @2020, Rohit K F
+                </p>
+              </footer>
+            </Footer>
+          </Router>
+        </BrowserRouter>
+        <h1>
+          Loading.....
+        </h1>
+      </Suspense>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
+
+exports[`App renders correctly Snapshot matches correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      actions={
+        Object {
+          "addProduct": [Function],
+          "addView": [Function],
+          "deleteProduct": [Function],
+          "loadProduct": [Function],
+          "updateProduct": [Function],
+        }
+      }
+      products={Array []}
+      userAction={
+        Object {
+          "addUser": [Function],
+          "loadUser": [Function],
+        }
+      }
+      users={Array []}
+    >
+      <Suspense
+        fallback={
+          <h1>
+            Loading.....
+          </h1>
+        }
+      >
+        <BrowserRouter>
+          <Router
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          >
+            <Header
+              handleLogin={[Function]}
+              loggedIn={false}
+              users={Array []}
+            >
+              <div
+                className="App"
+              >
+                <Navbar
+                  bg="dark"
+                  collapseOnSelect={false}
+                  expand="lg"
+                  variant="dark"
+                >
+                  <nav
+                    className="navbar navbar-expand-lg navbar-dark bg-dark"
+                  >
+                    <NavbarBrand>
+                      <span
+                        className="navbar-brand"
+                      >
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              <img
+                                alt=""
+                                className="d-inline-block align-top"
+                                height="50"
+                                src="MainLogo.jpeg"
+                                style={
+                                  Object {
+                                    "borderRadius": "50px",
+                                    "paddingRight": "20px",
+                                  }
+                                }
+                                width="80"
+                              />
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </span>
+                    </NavbarBrand>
+                    <NavbarToggle
+                      aria-controls="responsive-navbar-nav"
+                      label="Toggle navigation"
+                    >
+                      <button
+                        aria-controls="responsive-navbar-nav"
+                        aria-label="Toggle navigation"
+                        className="navbar-toggler collapsed"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <span
+                          className="navbar-toggler-icon"
+                        />
+                      </button>
+                    </NavbarToggle>
+                    <NavbarCollapse
+                      id="basic-navbar-nav"
+                    >
+                      <Collapse
+                        appear={false}
+                        dimension="height"
+                        getDimensionValue={[Function]}
+                        id="basic-navbar-nav"
+                        in={false}
+                        mountOnEnter={false}
+                        timeout={300}
+                        unmountOnExit={false}
+                      >
+                        <Transition
+                          addEndListener={[Function]}
+                          appear={false}
+                          aria-expanded={null}
+                          enter={true}
+                          exit={true}
+                          id="basic-navbar-nav"
+                          in={false}
+                          mountOnEnter={false}
+                          onEnter={[Function]}
+                          onEntered={[Function]}
+                          onEntering={[Function]}
+                          onExit={[Function]}
+                          onExited={[Function]}
+                          onExiting={[Function]}
+                          timeout={300}
+                          unmountOnExit={false}
+                        >
+                          <div
+                            aria-expanded={null}
+                            className="navbar-collapse collapse"
+                            id="basic-navbar-nav"
+                          >
+                            <Nav
+                              className="mr-auto"
+                              fill={false}
+                              justify={false}
+                            >
+                              <ForwardRef
+                                as="div"
+                                className="mr-auto navbar-nav"
+                                onSelect={[Function]}
+                              >
+                                <div
+                                  className="mr-auto navbar-nav"
+                                  onKeyDown={[Function]}
+                                >
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/"
+                                  >
+                                    <Link
+                                      aria-current="page"
+                                      className="active"
+                                      style={
+                                        Object {
+                                          "color": "red",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current="page"
+                                        className="active"
+                                        href="/"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "red",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current="page"
+                                          className="active"
+                                          href="/"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "red",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          Home
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/about"
+                                  >
+                                    <Link
+                                      aria-current={null}
+                                      style={
+                                        Object {
+                                          "color": "white",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/about",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current={null}
+                                        href="/about"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current={null}
+                                          href="/about"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          About
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                </div>
+                              </ForwardRef>
+                            </Nav>
+                          </div>
+                        </Transition>
+                      </Collapse>
+                    </NavbarCollapse>
+                    <Link
+                      to="/register"
+                    >
+                      <LinkAnchor
+                        href="/register"
+                        navigate={[Function]}
+                      >
+                        <a
+                          href="/register"
+                          onClick={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            disabled={false}
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                                "marginRight": "30px",
+                              }
+                            }
+                            type="button"
+                            variant="success"
+                          >
+                            <button
+                              className="btn btn-success"
+                              disabled={false}
+                              style={
+                                Object {
+                                  "fontWeight": "bold",
+                                  "marginRight": "30px",
+                                }
+                              }
+                              type="button"
+                            >
+                              <MdContentPaste>
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 24 24",
+                                    }
+                                  }
+                                >
+                                  <svg
+                                    fill="currentColor"
+                                    height="1em"
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": undefined,
+                                      }
+                                    }
+                                    viewBox="0 0 24 24"
+                                    width="1em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M19 2h-4.18C14.4.84 13.3 0 12 0c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 18H5V4h2v3h10V4h2v16z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </MdContentPaste>
+                               
+                              Register
+                            </button>
+                          </Button>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                      type="button"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "fontWeight": "bold",
+                          }
+                        }
+                        type="button"
+                      >
+                         
+                        Login
+                         
+                      </button>
+                    </Button>
+                  </nav>
+                </Navbar>
+              </div>
+            </Header>
+            <Switch>
+              <Route
+                computedMatch={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                exact={true}
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                path="/"
+                render={[Function]}
+              />
+            </Switch>
+            <Footer>
+              <footer>
+                <p
+                  style={
+                    Object {
+                      "backgroundColor": "#333",
+                      "color": "white",
+                      "padding": "20px",
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Copyright @2020, Rohit K F
+                </p>
+              </footer>
+            </Footer>
+          </Router>
+        </BrowserRouter>
+        <h1>
+          Loading.....
+        </h1>
+      </Suspense>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
+
+exports[`AppSnapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      actions={
+        Object {
+          "addProduct": [Function],
+          "addView": [Function],
+          "deleteProduct": [Function],
+          "loadProduct": [Function],
+          "updateProduct": [Function],
+        }
+      }
+      products={Array []}
+      userAction={
+        Object {
+          "addUser": [Function],
+          "loadUser": [Function],
+        }
+      }
+      users={Array []}
+    >
+      <Suspense
+        fallback={
+          <h1>
+            Loading.....
+          </h1>
+        }
+      >
+        <BrowserRouter>
+          <Router
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          >
+            <Header
+              handleLogin={[Function]}
+              loggedIn={false}
+              users={Array []}
+            >
+              <div
+                className="App"
+              >
+                <Navbar
+                  bg="dark"
+                  collapseOnSelect={false}
+                  expand="lg"
+                  variant="dark"
+                >
+                  <nav
+                    className="navbar navbar-expand-lg navbar-dark bg-dark"
+                  >
+                    <NavbarBrand>
+                      <span
+                        className="navbar-brand"
+                      >
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              <img
+                                alt=""
+                                className="d-inline-block align-top"
+                                height="50"
+                                src="MainLogo.jpeg"
+                                style={
+                                  Object {
+                                    "borderRadius": "50px",
+                                    "paddingRight": "20px",
+                                  }
+                                }
+                                width="80"
+                              />
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </span>
+                    </NavbarBrand>
+                    <NavbarToggle
+                      aria-controls="responsive-navbar-nav"
+                      label="Toggle navigation"
+                    >
+                      <button
+                        aria-controls="responsive-navbar-nav"
+                        aria-label="Toggle navigation"
+                        className="navbar-toggler collapsed"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <span
+                          className="navbar-toggler-icon"
+                        />
+                      </button>
+                    </NavbarToggle>
+                    <NavbarCollapse
+                      id="basic-navbar-nav"
+                    >
+                      <Collapse
+                        appear={false}
+                        dimension="height"
+                        getDimensionValue={[Function]}
+                        id="basic-navbar-nav"
+                        in={false}
+                        mountOnEnter={false}
+                        timeout={300}
+                        unmountOnExit={false}
+                      >
+                        <Transition
+                          addEndListener={[Function]}
+                          appear={false}
+                          aria-expanded={null}
+                          enter={true}
+                          exit={true}
+                          id="basic-navbar-nav"
+                          in={false}
+                          mountOnEnter={false}
+                          onEnter={[Function]}
+                          onEntered={[Function]}
+                          onEntering={[Function]}
+                          onExit={[Function]}
+                          onExited={[Function]}
+                          onExiting={[Function]}
+                          timeout={300}
+                          unmountOnExit={false}
+                        >
+                          <div
+                            aria-expanded={null}
+                            className="navbar-collapse collapse"
+                            id="basic-navbar-nav"
+                          >
+                            <Nav
+                              className="mr-auto"
+                              fill={false}
+                              justify={false}
+                            >
+                              <ForwardRef
+                                as="div"
+                                className="mr-auto navbar-nav"
+                                onSelect={[Function]}
+                              >
+                                <div
+                                  className="mr-auto navbar-nav"
+                                  onKeyDown={[Function]}
+                                >
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/"
+                                  >
+                                    <Link
+                                      aria-current="page"
+                                      className="active"
+                                      style={
+                                        Object {
+                                          "color": "red",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current="page"
+                                        className="active"
+                                        href="/"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "red",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current="page"
+                                          className="active"
+                                          href="/"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "red",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          Home
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                  <NavLink
+                                    activeStyle={
+                                      Object {
+                                        "color": "red",
+                                      }
+                                    }
+                                    exact={true}
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "fontWeight": "bold",
+                                        "outline": "none",
+                                        "padding": "0px 8px 0px 8px",
+                                        "textDecoration": "none",
+                                      }
+                                    }
+                                    to="/about"
+                                  >
+                                    <Link
+                                      aria-current={null}
+                                      style={
+                                        Object {
+                                          "color": "white",
+                                          "fontWeight": "bold",
+                                          "outline": "none",
+                                          "padding": "0px 8px 0px 8px",
+                                          "textDecoration": "none",
+                                        }
+                                      }
+                                      to={
+                                        Object {
+                                          "hash": "",
+                                          "pathname": "/about",
+                                          "search": "",
+                                          "state": null,
+                                        }
+                                      }
+                                    >
+                                      <LinkAnchor
+                                        aria-current={null}
+                                        href="/about"
+                                        navigate={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "outline": "none",
+                                            "padding": "0px 8px 0px 8px",
+                                            "textDecoration": "none",
+                                          }
+                                        }
+                                      >
+                                        <a
+                                          aria-current={null}
+                                          href="/about"
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "outline": "none",
+                                              "padding": "0px 8px 0px 8px",
+                                              "textDecoration": "none",
+                                            }
+                                          }
+                                        >
+                                          About
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </NavLink>
+                                </div>
+                              </ForwardRef>
+                            </Nav>
+                          </div>
+                        </Transition>
+                      </Collapse>
+                    </NavbarCollapse>
+                    <Link
+                      to="/register"
+                    >
+                      <LinkAnchor
+                        href="/register"
+                        navigate={[Function]}
+                      >
+                        <a
+                          href="/register"
+                          onClick={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            disabled={false}
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                                "marginRight": "30px",
+                              }
+                            }
+                            type="button"
+                            variant="success"
+                          >
+                            <button
+                              className="btn btn-success"
+                              disabled={false}
+                              style={
+                                Object {
+                                  "fontWeight": "bold",
+                                  "marginRight": "30px",
+                                }
+                              }
+                              type="button"
+                            >
+                              <MdContentPaste>
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 24 24",
+                                    }
+                                  }
+                                >
+                                  <svg
+                                    fill="currentColor"
+                                    height="1em"
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": undefined,
+                                      }
+                                    }
+                                    viewBox="0 0 24 24"
+                                    width="1em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M19 2h-4.18C14.4.84 13.3 0 12 0c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 18H5V4h2v3h10V4h2v16z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </MdContentPaste>
+                               
+                              Register
+                            </button>
+                          </Button>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                      type="button"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "fontWeight": "bold",
+                          }
+                        }
+                        type="button"
+                      >
+                         
+                        Login
+                         
+                      </button>
+                    </Button>
+                  </nav>
+                </Navbar>
+              </div>
+            </Header>
+            <Switch>
+              <Route
+                computedMatch={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                exact={true}
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                path="/"
+                render={[Function]}
+              />
+            </Switch>
+            <Footer>
+              <footer>
+                <p
+                  style={
+                    Object {
+                      "backgroundColor": "#333",
+                      "color": "white",
+                      "padding": "20px",
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Copyright @2020, Rohit K F
+                </p>
+              </footer>
+            </Footer>
+          </Router>
+        </BrowserRouter>
+        <h1>
+          Loading.....
+        </h1>
+      </Suspense>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
